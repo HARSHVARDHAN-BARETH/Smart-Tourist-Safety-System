@@ -1,0 +1,10 @@
+django==4.2.11  # Latest stable Django version (adjust as needed)
+djangorestframework==3.14.0  # REST API support
+channels==4.0.0  # Real-time WebSocket support
+asgiref==3.7.2  # Channels ke liye dependency
+scikit-learn==1.4.2  # ML ke liye Isolation Forest
+pandas==2.2.2  # Dummy data handling
+numpy==1.26.4  # Numerical operations for ML
+psycopg2-binary==2.9.9  # Database (future use, abhi optional)
+gunicorn==21.2.0  # Production server (optional for now)
+django-cors-headers==4.3.1  # Cross-origin requests for frontend
